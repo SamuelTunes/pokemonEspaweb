@@ -19,12 +19,15 @@ Descreva brevemente o objetivo do projeto, tecnologias utilizadas e funcionalida
 
    Recomendado que execute um servidor local para carregar a página como a extenção 'live server' do vscode
 
-📌 Controles
-Setas: Rotaciona o objeto 3D.
-Mouse: Arraste para girar o modelo.
-Scroll: Aproxima ou afasta a câmera.
-Touch: para mobile.
+##📌 Controles
+<ui>
+   <li>Setas: Rotaciona o objeto 3D.</li>
+   <li>Mouse: Arraste para girar o modelo.</li>
+   <li>Scroll: Aproxima ou afasta a câmera.</li>
+   <li>Touch: para mobile.</li>
+</ui>
+##📩 Contato
 
-📩 Contato
-📧 Email: samueltunes55@gmail.com
-🔗  <a href="https://www.linkedin.com/in/samuel-tunes-333ab21b1"> LinkedIn </a> | <a href="https://github.com/SamuelTunes"> GitHub </a>
+<p>📧 Email: samueltunes55@gmail.com</p>
+
+<p>🔗  <a href="https://www.linkedin.com/in/samuel-tunes-333ab21b1"> LinkedIn </a> | <a href="https://github.com/SamuelTunes"> GitHub </a></p>
