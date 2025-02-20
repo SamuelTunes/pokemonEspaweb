@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore um modelo 3D interativo do Pokémon Eevee, renderizado com Three.js. Interaja usando teclado e mouse!">
     <title>Three.js Basic Setup</title>
     <script type="importmap">
         {
@@ -12,11 +13,128 @@
           }
         }
       </script>
-    <style>
-        body { margin: 0; }
-    </style>
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" defer></script>
 </head>
 <body>
+  
+  <header>
+    <nav>
+      <label class="switch">
+        <input id="theme-toggle" type="checkbox" aria-label="Alternar tema claro/escuro">
+        <span class="slider"></span>
+      </label>
+      <button id="voltar" onclick="history.back()">Voltar</button>
+    </nav>
+  </header>
+  
+
+  <section id="dual-background">
+
+    <section id="intro-container"> 
+      <h1 class="subtitulo">Objeto 3D</h1>
+      <h1 class="titulo">Modelo 3D Pokemon EEVEE</h1>
+      <p>"Eevee é um Pokémon de tipo normal com a aparência de uma pequena raposa. Ele possui grandes olhos castanhos expressivos, orelhas pontudas, um pelo macio de cor marrom claro e uma cauda espessa com a ponta branca. Ao redor do pescoço, há uma pelagem fofa e volumosa em um tom creme. Eevee é conhecido por sua adaptabilidade única, podendo evoluir para diferentes formas dependendo do ambiente e das condições específicas."</p>
+
+      <!-- Links -->
+      <div class="intro-button ">
+
+        <div class="links-button">
+          <button aria-label="Visitar perfil no LinkedIn">
+            <a href="https://www.linkedin.com/in/samuel-tunes-333ab21b1/" target="_blank">
+              <box-icon name='linkedin' type='logo' alt="Ícone do LinkedIn"></box-icon>
+            </a>
+          </button>
+          <a href="https://www.linkedin.com/in/samuel-tunes-333ab21b1/" target="_blank">LINKEDIN</a>
+        </div>
+        
+        <div class="links-button">
+
+          <button aria-label="Visitar perfil no Github">
+
+            <a href="https://github.com/SamuelTunes" target="_blank">
+              <box-icon name='github' type='logo' alt="Ícone do Github"></box-icon>
+            </a>
+
+          </button>
+
+          <a href="https://github.com/SamuelTunes" target="_blank">GITHUB</a>
+        </div>
+
+      </div>
+
+  </section>
+
+    <section id="canvas-container" aria-label="Local onde o objeto 3d será carregado">
+        <!-- O canvas será adicionado aqui via JavaScript -->
+    </section>
+
+    <section id="controls-and-buttons">
+      <div id="control-container">
+      <!-- imagens dos botões -->
+        <div class="arrow">
+          <div class="arrow-up">
+            <box-icon name="up-arrow-alt" alt="Ícone da seta acima do teclado para rotacionar"></box-icon>
+          </div>
+          <div class="arrow-horizontal">
+            <box-icon name="left-arrow-alt" alt="Ícone da seta esquerdo do teclado para rotacionar"></box-icon>
+            <box-icon name="down-arrow-alt" alt="Ícone da seta abaixo do teclado para rotacionar"></box-icon>
+            <box-icon name="right-arrow-alt" alt="Ícone da seta direita do teclado para rotacionar"></box-icon>
+          </div>
+          <p>Setas-> Rotaciona o objeto 3D</p>
+        </div>
+      
+
+        <div class="click-mouse">
+          <div class="mouse-icon">
+            <img src="/img/LeftClick.png" alt="Ícone de clique esquerdo do mouse para rotacionar">
+            <img src="/img/RightClick.png" alt="Icone de clique direito do mouse para rotacionar"/>
+            <img src="/img/ScrollClick.png" alt="Icone de clique do scroll do mouse para rotacionar"/>
+          </div>
+          <p> Click e Segurar mouse-> Rotacionar o objeto 3D</p>
+        </div>
+
+        <div id="scroll-mouse">
+          <img src="/img/Scroll.png" alt="Icone de scroll do mouse para aumentar ou diminuir o objeto"/>
+          <p>Scroll do mouse-> ZOOM</p>
+        </div>
+      </div>
+
+      <div id="tutorial-mobile" >
+        <div class="finger-rotation">
+          <div class="finger-rotation-icon">
+            <img src="/img/LeftClick.png" alt="Ícone de clique esquerdo do mouse para rotacionar">
+          </div>
+          <p>Dedo-> Rotaciona o objeto 3D<</p>
+        </div>
+
+        <div class="finger-zoom">
+          <div class="finger-zoom-icon">
+            <img src="/img/LeftClick.png" alt="Ícone de clique esquerdo do mouse para rotacionar">
+          </div>
+          <p>Dedo em pinça-> ZOOM in ZOOM out</p>
+        </div>
+    </div>
+
+      <div id="button-container">
+        <a href="https://github.com/SamuelTunes/animacao" target="_blank" class="button">GITHUB DO PROJETO</a>
+        <a href="https://github.com/SamuelTunes/animacao" target="_blank" class="button-arrow"><box-icon name='right-arrow-alt' ></box-icon></a>
+      </div>
+    
+    </section>
+  </section>
+
+  <footer role="contentinfo">
+    <p>
+      Modelo 3D do Eevee criado por 
+      <a href="https://sketchfab.com/DrewsDigitalDesigns" target="_blank" aria-label="Perfil do autor DrewsDigitalDesigns no Sketchfab">
+        DrewsDigitalDesigns
+      </a>, disponível em 
+      <a href="https://sketchfab.com/3d-models/eevee-9b7f0605ef1443d5a25757484ca484c7" target="_blank" aria-label="Link para o modelo do Eevee no Sketchfab">
+        Sketchfab
+      </a>
+    </p>
+  </footer>
 
     <script type=module src="js/script.js"></script>
 </body>
