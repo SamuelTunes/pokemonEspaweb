@@ -1,4 +1,4 @@
-# Nome do Projeto 🚀
+# Renderização de Objetos 3D -Versão Eevee Pokemon 🚀
 
 > Pequena descrição do projeto.
 
@@ -11,7 +11,6 @@ Descreva brevemente o objetivo do projeto, tecnologias utilizadas e funcionalida
 ## 🛠️ Tecnologias Utilizadas
 - [✔️] **HTML, CSS, JavaScript**
 - [✔️] **Three.js** (Para renderização 3D)
-- [✔️] **Node.js** (Se houver backend)
 
 ## 🎮 Como Usar
 1. Clone o repositório:
@@ -22,8 +21,8 @@ Descreva brevemente o objetivo do projeto, tecnologias utilizadas e funcionalida
 Setas: Rotaciona o objeto 3D.
 Mouse: Arraste para girar o modelo.
 Scroll: Aproxima ou afasta a câmera.
-Touch para mobile.
+Touch: para mobile.
 
 📩 Contato
 📧 Email: seuemail@email.com
-🔗 LinkedIn | GitHub
+🔗 LinkedIn | <a href="https://github.com/SamuelTunes"> GitHub </a>
