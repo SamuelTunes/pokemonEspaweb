@@ -33,7 +33,7 @@ Além disso, o projeto inclui:
 </ul>
 ---
 
-##📌 Controles ##
+## 📌 Controles
 <ui>
    <li>Setas: Rotaciona o objeto 3D.</li>
    <li>Mouse: Arraste para girar o modelo.</li>
@@ -41,7 +41,7 @@ Além disso, o projeto inclui:
    <li>Touch: para mobile.</li>
 </ui>
 
-##📩 Contato ##
+## 📩 Contato
 
 <p>📧 Email: samueltunes55@gmail.com</p>
 
