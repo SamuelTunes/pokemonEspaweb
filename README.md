@@ -24,16 +24,16 @@ Além disso, o projeto inclui:
 ## 🎯 Como Usar
 <ul>
 <li>Clone o repositório:</li>
-   ```bash
+   
    git clone https://github.com/SamuelTunes/pokemonEspaweb.git
-   ```
+
 <li>Execute um  servidor local para carregar a página como a extenção 'live server' do vscode
 <li>Abra o arquivo `index.html` em um navegador moderno.</li>
 <li>Use o mouse, teclado ou toque para interagir com o objeto.</li>
 </ul>
 ---
 
-##📌 Controles
+##📌 Controles ##
 <ui>
    <li>Setas: Rotaciona o objeto 3D.</li>
    <li>Mouse: Arraste para girar o modelo.</li>
@@ -41,7 +41,7 @@ Além disso, o projeto inclui:
    <li>Touch: para mobile.</li>
 </ui>
 
-##📩 Contato
+##📩 Contato ##
 
 <p>📧 Email: samueltunes55@gmail.com</p>
 
